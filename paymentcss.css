@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap");
+:root {
+	--bmw-red: #ea5455;
+	--bmw-blue: #343434;
+	--bmw-blue-opaque: #343434b7;
+	--bmw-beige: #fde9c9;
+	--bmw-beige-opaque: #fde9c9e7;
+	--bmw-beige-opaque-2: #fde9c97b;
+	--bmw-grey: #343434;
+}
+* {
+	/* background-color: var(); */
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    /* background-color: var(--bmw-beige); */
+}
+
+
+
+.container {
+	margin: 20px auto;
+	max-width: 1000px;
+	/* background-color: var(--bmw-beige); */
+    border-radius: 20px;
+	padding: 0;
+}
+
+.form-control1{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: transparent;
+    border: none;
+    width: 170px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.form-control2{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+
+.form-control3{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: transparent;
+    border: none;
+    width: 30px;
+	border-bottom: 2px solid #ccc;
+}
+
+
+
+p {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.text-muted {
+	font-size: 10px;
+}
+
+.textmuted {
+	color: #6c757d;
+	font-size: 13px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.btn.btn-primary {
+	width: 100%;
+	height: 55px;
+	border-radius: 10px;
+	padding: 13px 0;
+	border: none;
+    background-color: var(--bmw-red);
+	font-weight: 900;
+}
+
+.btn.btn-primary:hover  {
+    transform: translateY(-10px);
+	transition: all 0.5s ease;
+    background-color: var(--bmw-grey);
+    /* color: #ea5455; */
+}
+
+.fw-900 {
+	font-weight: 900;
+}
+
+::placeholder {
+	font-size: 12px;
+}
+
+
+
+.h4 {
+	font-family: "Work Sans", sans-serif !important;
+	font-weight: 800 !important;
+}
+
+.textmuted,
+h5,
+.text-muted {
+	font-family: "Poppins", sans-serif;
+}
+.img_container{
+    position: relative;
+}
+.heading_1{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #fff;
+}
+.img_car {
+	border-radius: 10px 10px 0 0;
+}
+.buy_btn{
+    border-radius: 20px;
+}
+
+.details{
+    /* background-color: var(--bmw-beige); */
+    border-radius: 20px;
+}
+.body{
+    background-color: var(--bmw-grey) ;
+    /* color: var(--bmw-beige) ; */
+}
+
+.section_1{
+    border-radius: 20px;
+
+    background-color:var(--bmw-beige);
+    
+}
+.section_2{
+    background-color:var(--bmw-beige);
+    border-radius: 20px;
+    
+
+    /* background-color: #fde9c9; */
+    
+}
+.section_3{
+    border-radius: 20px;
+    background-color:var(--bmw-beige);
+
+}

@@ -156,6 +156,7 @@ html {
 }
 
 body {
+	transition: all 0.5s;
 	background: var(--alice-blue-1);
 	/* background: var(--bmw-grey); */
 	overflow-x: hidden;
